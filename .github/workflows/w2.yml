@@ -7,25 +7,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: step1
-         run: echo "commit happped sucessfully"
+         run: echo "commit happened successfully"
        - name: step2
          run: echo "step2"
-       - name: stpe3
+       - name: step3
          run: |
            echo "help from step3"
            hostname
            pwd
            id
   job2: 
-      runs-on: ubuntu-latest
-      steps:
+    runs-on: ubuntu-latest
+    steps:
        - name: step1
          run: echo "message from job2"
        - name: step2
          run: echo "job2,step2"
-       - name: stpe3
+       - name: step3
          run: |
-           echo "job2,from step3"
+           echo "job2, from step3"
            hostname
            pwd
            id
