@@ -10,7 +10,7 @@ jobs:
          run: echo "step2"
        - name: stpe3
          run: |
-           echo "heelp from step3"
+           echo "help from step3"
            hostname
            pwd
            id
