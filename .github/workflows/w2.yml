@@ -1,4 +1,4 @@
-name: first_pipeline
+name: second_pipeline
 on:
   schedule:
     - cron: '*/5 * * * *'
