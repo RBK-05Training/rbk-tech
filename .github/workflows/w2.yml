@@ -1,5 +1,8 @@
 name: second_pipeline
-on: push
+on:
+  push
+  schedule:
+    - cron: '*/5 * * * *' # Runs every 5 minutes
 jobs:
   job1: 
     runs-on: ubuntu-latest
